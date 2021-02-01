@@ -1,0 +1,14 @@
+ls
+
+./Steganshivansh@shivansh-VirtualBox:~/Desktop/Minor/Steganography-In-C-master$ ls
+
+ gcc -c Steganography.c
+
+ gcc Steganography.o -o Steganography
+
+ ./Steganography -E -i mouse.jpg -s secret_text.txt -o encode.jpg
+
+./Steganography -D -i encode.bmp -o text_output.txt
+
+
+
